@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD"
+    android:padding="16dp">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"  android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:columnCount="2"
+        app:columnOrderPreserved="false"
+        app:rowOrderPreserved="false"
+        app:useDefaultMargins="true">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:minHeight="180dp"> <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/testName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aptitude Test"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#03045E"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/testDescription1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assess your general cognitive abilities and problem-solving skills. This test will challenge your logical thinking and analytical capabilities."
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/startButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Test"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#03045E"
+                android:paddingVertical="8dp"
+                android:paddingHorizontal="16dp"
+                android:layout_gravity="end"/>
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:minHeight="180dp"> <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/testName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Technical Skills Test"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#03045E"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/testDescription2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Evaluate your proficiency in specific technical areas relevant to job roles. This section covers various technical concepts and their application."
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/startButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Test"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#03045E"
+                android:paddingVertical="8dp"
+                android:paddingHorizontal="16dp"
+                android:layout_gravity="end"/>
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:minHeight="180dp"> <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/testName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Communication Skills"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#03045E"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/testDescription3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assess your verbal and written communication abilities. This includes grammar, clarity, and the ability to convey information effectively."
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/startButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Test"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#03045E"
+                android:paddingVertical="8dp"
+                android:paddingHorizontal="16dp"
+                android:layout_gravity="end"/>
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:minHeight="180dp"> <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/testName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logical Reasoning"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#03045E"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/testDescription4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Evaluate your ability to understand and analyze logical arguments. This section tests your deductive and inductive reasoning skills."
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/startButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Test"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#03045E"
+                android:paddingVertical="8dp"
+                android:paddingHorizontal="16dp"
+                android:layout_gravity="end"/>
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:minHeight="180dp"> <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/testName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Situational Judgement"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#03045E"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/testDescription5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assess your ability to choose effective responses in workplace scenarios. This test presents various situations and asks you to select the best course of action."
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/startButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Test"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#03045E"
+                android:paddingVertical="8dp"
+                android:paddingHorizontal="16dp"
+                android:layout_gravity="end"/>
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_columnWeight="1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:minHeight="180dp"> <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/testName6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personality Assessment"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#03045E"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/testDescription6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Understand your work style and preferences. This assessment helps identify your strengths and potential areas for development in a professional setting."
+                android:textSize="14sp"
+                android:textColor="#757575"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/startButton6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Test"
+                android:textSize="14sp"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#03045E"
+                android:paddingVertical="8dp"
+                android:paddingHorizontal="16dp"
+                android:layout_gravity="end"/>
+
+        </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.core.widget.NestedScrollView>

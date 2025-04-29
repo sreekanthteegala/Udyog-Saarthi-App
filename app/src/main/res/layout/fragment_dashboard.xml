@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:alignmentMode="alignMargins"
+        app:columnCount="2"
+        app:useDefaultMargins="true">
+
+        <!-- New App Info Card -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:background="@drawable/button_bluish_gradient"
+            android:padding="16dp"
+            android:elevation="4dp"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="2"
+            app:layout_gravity="fill">
+
+            <TextView
+                android:id="@+id/appTagline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Empowering Ability, Enabling Opportunities"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/appInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Udyog Saarthi supports inclusive employment for persons with disabilities under the RPwD Act, 2016."
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:paddingTop="8dp" />
+        </LinearLayout>
+
+        <!-- Original Buttons (Unchanged) -->
+        <Button
+            android:id="@+id/btnCoaching"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:background="@drawable/button_bluish_gradient"
+            android:drawableTop="@drawable/icon_coaching"
+            android:drawablePadding="8dp"
+            android:elevation="4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="12dp"
+            android:stateListAnimator="@null"
+            android:text="Coaching"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_columnWeight="1"
+            app:layout_columnSpan="1"
+            app:layout_gravity="fill" />
+
+        <Button
+            android:id="@+id/btnJobListings"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:background="@drawable/button_bluish_gradient"
+            android:drawableTop="@drawable/icon_list"
+            android:drawablePadding="8dp"
+            android:elevation="4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="16dp"
+            android:stateListAnimator="@null"
+            android:text="Job Listings"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_columnWeight="1"
+            app:layout_columnSpan="1"
+            app:layout_gravity="fill" />
+
+        <Button
+            android:id="@+id/btnInstitutes"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:background="@drawable/button_bluish_gradient"
+            android:drawableTop="@drawable/icon_institute"
+            android:drawablePadding="8dp"
+            android:elevation="4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="16dp"
+            android:stateListAnimator="@null"
+            android:text="Institutes"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_columnWeight="1"
+            app:layout_columnSpan="1"
+            app:layout_gravity="fill" />
+
+        <Button
+            android:id="@+id/btnResumeBuilder"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:background="@drawable/button_bluish_gradient"
+            android:drawableTop="@drawable/icon_resume"
+            android:drawablePadding="8dp"
+            android:elevation="4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="16dp"
+            android:stateListAnimator="@null"
+            android:text="Resume Builder"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_columnWeight="1"
+            app:layout_columnSpan="1"
+            app:layout_gravity="fill" />
+
+        <Button
+            android:id="@+id/btnJobFairs"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:background="@drawable/button_bluish_gradient"
+            android:drawableTop="@drawable/icon_job"
+            android:drawablePadding="8dp"
+            android:elevation="4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="16dp"
+            android:stateListAnimator="@null"
+            android:text="Job Fairs"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_columnWeight="1"
+            app:layout_columnSpan="1"
+            app:layout_gravity="fill" />
+
+        <Button
+            android:id="@+id/btnDocumentUpload"
+            android:layout_width="0dp"
+            android:layout_height="180dp"
+            android:background="@drawable/button_bluish_gradient"
+            android:drawableTop="@drawable/icon_document"
+            android:drawablePadding="8dp"
+            android:elevation="4dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:padding="16dp"
+            android:stateListAnimator="@null"
+            android:text="Document Upload"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_columnWeight="1"
+            app:layout_columnSpan="1"
+            app:layout_gravity="fill" />
+
+    </androidx.gridlayout.widget.GridLayout>
+</ScrollView>

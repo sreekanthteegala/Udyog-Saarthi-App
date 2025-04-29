@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/dashboard"
+        android:titleTextAppearance="@style/BottomNavigationViewTextStyle"
+        android:iconTint="@color/bottom_navigation_icon_tint" />
+
+    <item
+        android:id="@+id/nav_complain"
+        android:icon="@drawable/ic_report_problem"
+        android:title="@string/complain"
+        android:titleTextAppearance="@style/BottomNavigationViewTextStyle"
+         />
+
+    <item
+        android:id="@+id/nav_updates"
+        android:icon="@drawable/ic_update"
+        android:title="@string/updates"
+        android:titleTextAppearance="@style/BottomNavigationViewTextStyle"
+       />
+
+    <item
+        android:id="@+id/nav_tests"
+        android:icon="@drawable/ic_assignment"
+        android:title="@string/tests"
+        android:titleTextAppearance="@style/BottomNavigationViewTextStyle"
+        />
+
+</menu>

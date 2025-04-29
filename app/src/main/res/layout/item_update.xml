@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/updateTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#212121"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            tools:text="New Job Listings Available!" />
+
+        <TextView
+            android:id="@+id/updateDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_marginBottom="8dp"
+            tools:text="April 16, 2025" />
+
+        <TextView
+            android:id="@+id/updateDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#424242"
+            tools:text="Check out the latest job openings specifically for candidates under the 4% reservation quota. New opportunities in various sectors have been added." />
+
+        <Button
+            android:id="@+id/readMoreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read More"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#03045E"
+            android:paddingVertical="8dp"
+            android:paddingHorizontal="16dp"
+            android:layout_marginTop="12dp"
+            android:visibility="gone"/> </LinearLayout>
+
+</androidx.cardview.widget.CardView>

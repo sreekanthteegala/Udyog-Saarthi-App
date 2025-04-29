@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Job Fair Banner Image -->
+        <ImageView
+            android:id="@+id/jobFairImage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Job fair banner image" />
+
+        <!-- Job Fair Details -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title -->
+            <TextView
+                android:id="@+id/jobFairTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inclusive Employment Fair 2025"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#2C3E50" />
+
+            <!-- Organizer -->
+            <TextView
+                android:id="@+id/jobFairOrganizer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIEPMD &amp; Tech Employers Association"
+                android:textSize="14sp"
+                android:textColor="#7F8C8D"
+                android:layout_marginTop="4dp" />
+
+            <!-- Date and Location -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp">
+
+                <!-- Date -->
+                <TextView
+                    android:id="@+id/jobFairDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="May 15, 2025"
+                    android:textSize="14sp"
+                    android:textColor="#7F8C8D"
+                    android:drawableStart="@drawable/ic_calendar"
+                    android:drawablePadding="4dp" />
+
+                <!-- Location -->
+                <TextView
+                    android:id="@+id/jobFairLocation"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Chennai, Tamil Nadu"
+                    android:textSize="14sp"
+                    android:textColor="#7F8C8D"
+                    android:drawableStart="@drawable/ic_location"
+                    android:drawablePadding="4dp" />
+            </LinearLayout>
+
+            <!-- Button -->
+            <Button
+                android:id="@+id/viewDetailsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Details"
+                android:textAllCaps="false"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/rounded_button"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

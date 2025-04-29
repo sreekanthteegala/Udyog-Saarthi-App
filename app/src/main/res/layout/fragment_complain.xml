@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="File a Complaint"
+    android:textSize="24sp"
+    android:textColor="#03045E" android:textStyle="bold"
+    android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please provide details about your complaint. Your feedback is important to us."
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:layout_marginBottom="24dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject of Complaint"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:textColorHint="#9E9E9E"
+        app:boxStrokeColor="#B5179E"
+        app:hintTextColor="#B5179E"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#212121" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Detailed Description"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:textColorHint="#9E9E9E"
+        app:boxStrokeColor="#B5179E"
+        app:hintTextColor="#B5179E"
+        android:layout_marginBottom="24dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:gravity="top|start"
+            android:inputType="textMultiLine"
+            android:textSize="18sp"
+            android:textColor="#212121" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonSubmitComplaint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Complaint"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#03045E"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="32dp"
+        android:layout_gravity="end"
+        android:elevation="4dp" />
+
+</LinearLayout>

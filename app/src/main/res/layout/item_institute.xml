@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Institute Logo -->
+        <ImageView
+            android:id="@+id/instituteLogo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="16dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="Institute logo"/>
+
+        <!-- Institute Details -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Institute Name -->
+            <TextView
+                android:id="@+id/instituteName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#2C3E50"/>
+
+            <!-- Institute Location -->
+            <TextView
+                android:id="@+id/instituteLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#7F8C8D"
+                android:layout_marginTop="4dp"
+                android:drawableStart="@drawable/ic_location"
+                android:drawablePadding="4dp"/>
+
+            <!-- Institute Type/Category -->
+            <TextView
+                android:id="@+id/instituteType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#3498DB"
+                android:layout_marginTop="4dp"/>
+
+            <!-- Rating Bar -->
+            <RatingBar
+                android:id="@+id/instituteRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                style="?android:attr/ratingBarStyleSmall"
+                android:numStars="5"
+                android:stepSize="0.5"
+                android:isIndicator="false"/>
+
+        </LinearLayout>
+
+        <!-- Right Arrow -->
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_right_arrow"
+            android:contentDescription="View details"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
