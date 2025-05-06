@@ -1,6 +1,5 @@
 # Udyog Saarthi – Progressive App for Job Coaching & Career Support
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Android-blue.svg)
 ![Language](https://img.shields.io/badge/language-Kotlin-orange.svg)
 
